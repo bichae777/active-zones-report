@@ -1,0 +1,19 @@
+name: active-zones
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - jupyterlab
+  - notebook
+  - matplotlib
+  - geopandas
+  - folium
+  - seaborn
+  - pyproj
+  - ipywidgets
+  - pip
+  - pip:
+      - jupyterlab_widgets
